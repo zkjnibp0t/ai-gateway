@@ -33,6 +33,9 @@ AI Gateway provides a unified interface for routing requests to various AI provi
    go run ./cmd/gateway
    ```
 
+3. By default the gateway listens on `:8080`. You can override this by setting
+   `GATEWAY_PORT` in your `.env` file (e.g. `GATEWAY_PORT=9090`).
+
 ### Configuration
 
 See the `.gemini/config.yaml` for Gemini provider configuration examples.
