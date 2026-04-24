@@ -36,6 +36,10 @@ AI Gateway provides a unified interface for routing requests to various AI provi
 3. By default the gateway listens on `:8080`. You can override this by setting
    `GATEWAY_PORT` in your `.env` file (e.g. `GATEWAY_PORT=9090`).
 
+> **Personal note:** I typically run this on port `11434` locally so it doesn't
+> conflict with other services. Set `GATEWAY_PORT=11434` in `.env` if you're
+> doing the same.
+
 ### Configuration
 
 See the `.gemini/config.yaml` for Gemini provider configuration examples.
