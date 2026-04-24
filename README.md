@@ -39,6 +39,10 @@ AI Gateway provides a unified interface for routing requests to various AI provi
 > **Personal note:** I typically run this on port `11434` locally so it doesn't
 > conflict with other services. Set `GATEWAY_PORT=11434` in `.env` if you're
 > doing the same.
+>
+> Also useful: set `GATEWAY_LOG_LEVEL=debug` in `.env` while experimenting —
+> it prints the full request/response cycle which makes it much easier to
+> understand what the router is doing.
 
 ### Configuration
 
