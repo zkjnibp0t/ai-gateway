@@ -47,6 +47,9 @@ AI Gateway provides a unified interface for routing requests to various AI provi
 > If you're using `llama3.2` as your default model in Ollama, set
 > `OLLAMA_DEFAULT_MODEL=llama3.2` in `.env` — saves having to specify it
 > on every request during local testing.
+>
+> **Tip:** run `go run ./cmd/gateway 2>&1 | tee gateway.log` to keep a local
+> log file while testing — handy for diffing request behaviour across runs.
 
 ### Configuration
 
