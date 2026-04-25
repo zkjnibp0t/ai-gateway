@@ -43,6 +43,10 @@ AI Gateway provides a unified interface for routing requests to various AI provi
 > Also useful: set `GATEWAY_LOG_LEVEL=debug` in `.env` while experimenting —
 > it prints the full request/response cycle which makes it much easier to
 > understand what the router is doing.
+>
+> If you're using `llama3.2` as your default model in Ollama, set
+> `OLLAMA_DEFAULT_MODEL=llama3.2` in `.env` — saves having to specify it
+> on every request during local testing.
 
 ### Configuration
 
